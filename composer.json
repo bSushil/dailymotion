@@ -1,0 +1,24 @@
+{
+    "name": "bsushil/dailymotion",
+    "description": "Dailymotion API with namespace support",
+    "version": "1.0.0",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "keywords": ["dailymotion","videos","search"],
+    "homepage": "https://github.com/bSushil/dailymotion",
+    "authors": [
+        {
+            "name": "Sushil Bajimaya",
+            "email": "sushil.bajimaya@gmail.com",
+            "role" : "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Dailymotion\\sdk": "dailymotion/sdl"
+        }
+    }
+}
