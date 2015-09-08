@@ -18,8 +18,7 @@
     },
     "autoload" : {
         "psr-4" : {
-            "Dailymotion":"dailymotion",
-            "Dailymotion\\sdk": "dailymotion/sdk"
+            "Dailymotion\\sdk\\": "dailymotion/sdk"
         }
     }
 }
